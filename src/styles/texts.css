@@ -1,0 +1,35 @@
+#corpo {
+    display: flex;
+    min-height: calc(100vh - 93px);
+    padding: 40px 19%;
+    align-items: top;
+    justify-content: left;
+    z-index:3;
+  
+}
+#central .title{
+    font-size: 4.3rem;
+    color: #201F1D;
+}
+
+#central .subtitle{
+    font-size: 1.6rem;
+    color: #201F1D;
+    display:flex;
+    gap:24px;
+}
+
+#central .texto{
+    font-size: 1.0rem;
+    color: #201F1D;
+    display:flex;
+    gap:24px;
+}
+#central {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 15%;
+    z-index: 3;
+}

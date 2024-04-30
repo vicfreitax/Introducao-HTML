@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght,GRAD@500,-30..0&display=swap');
+*{
+    font-family:"Signika", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    height:100vp;
+    box-sizing: border-box;
+    background-color: #F292A2;
+
+}
+
+.btn-default {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#EA4863;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 500;
+    color:#201F1D;
+    box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: background-color .4s ease;
+}
+
+.btn-default:hover{
+    background-color:#FFF3FB;
+    color:#201F1D;
+}
+
+.social-media-buttons {
+    display:flex;
+    gap: 18px;
+}
+
+.social-media-buttons a{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width: 45px;
+    height: 40px;
+    font-size:1.25rem;
+    background-color:#EA4863;
+    border-radius:10px;
+    text-decoration:none;
+    color:#201F1D;
+    box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.1) ;
+    transition: color .4s ease;
+}
+
+.social-media-buttons a:hover{
+    background-color:#FFF3FB;
+    color:#201F1D;
+}
+
+.btn-passagem {
+    border: none;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#EA4863;
+    text-decoration:none;
+    border-radius: 12px;
+    padding: 10px 8px;
+    font-weight: 500;
+    color:#201F1D;
+    box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: background-color .4s ease;
+}
+.btn-passagem:hover{
+    background-color:#FFF3FB;
+    color:#201F1D;
+}
